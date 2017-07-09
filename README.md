@@ -1,4 +1,3 @@
-## 使用jbox2d物理引擎打造摩拜单车贴纸动画效果
 
 ### 效果演示:
 
@@ -6,7 +5,7 @@
 
 ### 使用请参考App Demo,欢迎大家 star
 
-### 引入方式:
+引入方式:
 
 * compile 'com.itkimi.group:MobikeTags:1.0.1'
 
