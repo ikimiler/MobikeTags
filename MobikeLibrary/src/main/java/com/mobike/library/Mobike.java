@@ -114,9 +114,9 @@ public class Mobike {
         }
         FixtureDef fixture = new FixtureDef();
         fixture.setShape(shape);
-        fixture.friction = friction; //设置摩擦系数
-        fixture.restitution = restitution; //设置能量损失率 0-1 数值越小，反弹力越小
-        fixture.density = density; //设置密度
+        fixture.friction = friction;
+        fixture.restitution = restitution;
+        fixture.density = density;
 
         Body body = world.createBody(bodyDef);
         body.createFixture(fixture);
@@ -207,7 +207,9 @@ public class Mobike {
             Vec2 impulse = new Vec2(random.nextInt(1000) - 1000, random.nextInt(1000) - 1000);
             View view = mViewgroup.getChildAt(i);
             Body body = (Body) view.getTag(R.id.mobike_body_tag);
-            body.applyLinearImpulse(impulse, body.getPosition(),true);
+            if(body != null){
+                body.applyLinearImpulse(impulse, body.getPosition(),true);
+            }
         }
     }
 
@@ -217,7 +219,9 @@ public class Mobike {
             Vec2 impulse = new Vec2(x, y);
             View view = mViewgroup.getChildAt(i);
             Body body = (Body) view.getTag(R.id.mobike_body_tag);
-            body.applyLinearImpulse(impulse, body.getPosition(),true);
+            if(body != null){
+                body.applyLinearImpulse(impulse, body.getPosition(),true);
+            }
         }
     }
 
