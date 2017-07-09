@@ -10,6 +10,10 @@
 
 * compile 'com.itkimi.group:MobikeTags:1.0.1'
 
+如果引用失败，请在project的build.gradle中jcenter()下面添加以下仓库地址
+
+* maven {url "https://dl.bintray.com/andmizi/maven"}
+
 ### Apk下载体验:
 
 ![image.png](https://github.com/andmizi/MobikeTags/blob/master/screen/qrcode.png)
