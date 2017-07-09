@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/friction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="摩擦系数，0-1之间"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/restitution"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="能量损失率，0-1之间"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/density"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="物体的密度"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/ratio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="世界与屏幕的比率"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="?attr/colorPrimary"
+        android:id="@+id/ok"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确认修改" />
+</LinearLayout>

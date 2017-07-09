@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/App/App.iml" filepath="$PROJECT_DIR$/App/App.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MobikeLibrary/MobikeLibrary.iml" filepath="$PROJECT_DIR$/MobikeLibrary/MobikeLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mobike.iml" filepath="$PROJECT_DIR$/mobike.iml" />
+    </modules>
+  </component>
+</project>

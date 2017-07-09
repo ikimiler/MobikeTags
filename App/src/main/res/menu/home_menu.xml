@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/enable"
+        app:showAsAction="never"
+        android:title="停止" />
+
+    <item
+        android:id="@+id/editParams"
+        app:showAsAction="never"
+        android:title="配置参数" />
+
+    <item
+        android:id="@+id/mobikedemo"
+        app:showAsAction="never"
+        android:title="摩拜Demo" />
+    <item
+        android:id="@+id/about"
+        app:showAsAction="never"
+        android:title="关于我" />
+
+</menu>

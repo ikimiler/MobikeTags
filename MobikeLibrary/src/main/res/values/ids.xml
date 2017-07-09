@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mobike_body_tag" type="id"/>
+    <item name="mobike_view_circle_tag" type="id"/>
+</resources>
