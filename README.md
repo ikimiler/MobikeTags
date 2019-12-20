@@ -16,8 +16,5 @@
 
 ![image.png](https://github.com/andmizi/MobikeTags/blob/master/screen/qrcode.png)
 
-### 个人博客: [http://www.itkimi.com](http://www.itkimi.com)
 
 ### CSDN博客: [http://blog.csdn.net/qq_28268507?viewmode=list](http://blog.csdn.net/qq_28268507?viewmode=list)
-
-### 简书博客: [http://www.jianshu.com/u/6edc22b4da83](http://www.jianshu.com/u/6edc22b4da83)
